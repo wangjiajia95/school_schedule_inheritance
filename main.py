@@ -1,4 +1,5 @@
 from school_schedule.student import Student
+from school_schedule.classroom import Classroom
 
 # first instance
 quinn = Student(
@@ -35,3 +36,5 @@ claire.get_num_classes()
 claire.summary()
 
 
+student_list = [quinn, claire]
+c1 = Cohort("Cohort 1", student_list)
