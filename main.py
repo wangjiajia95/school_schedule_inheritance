@@ -1,5 +1,5 @@
 from school_schedule.student import Student
-from school_schedule.classroom import Classroom
+from school_schedule.cohort import Cohort
 
 # first instance
 quinn = Student(

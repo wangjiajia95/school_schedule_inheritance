@@ -33,9 +33,9 @@ def test_get_num_classes():
     name = "Ellis"
     grade = "junior"
     classes = ["Painting", "Writing"]
+    ellis = Student(name, grade, classes)
 
     # Act
-    ellis = Student(name, grade, classes)
     num_classes = ellis.get_num_classes()
 
     # Assert
