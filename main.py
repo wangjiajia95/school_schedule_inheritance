@@ -1,5 +1,6 @@
 
-first instance
+
+#first instance
 quinn = Student(
                 "Quinn", 
                 "junior", 
@@ -17,6 +18,7 @@ quinn.add_class("Painting")
 quinn.get_num_classes()
 quinn.summary()
 
+# second instance
 claire = Student(
                 "Claire", 
                 "freshmen", 
@@ -33,5 +35,6 @@ claire = Student(
 claire.get_num_classes()
 claire.summary()
 
-get_student_with_more_classes(claire, samara)
-
+# Extra:
+# - create a function that will return the student with more classes
+# - create a test for that function
