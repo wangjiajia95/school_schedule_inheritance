@@ -1,5 +1,6 @@
+from school_schedule.student import Student
 
-first instance
+# first instance
 quinn = Student(
                 "Quinn", 
                 "junior", 
@@ -13,9 +14,9 @@ quinn = Student(
                 ]
             )
 
-quinn.add_class("Painting")
-quinn.get_num_classes()
-quinn.summary()
+print(quinn.add_class("Painting"))
+print(quinn.get_num_classes())
+print(quinn.summary())
 
 claire = Student(
                 "Claire", 
@@ -30,8 +31,7 @@ claire = Student(
                 ]
             )
 
-claire.get_num_classes()
-claire.summary()
+print(claire.get_num_classes())
+print(claire.summary())
 
-get_student_with_more_classes(claire, samara)
 
