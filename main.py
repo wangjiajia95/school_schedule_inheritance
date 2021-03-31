@@ -14,9 +14,9 @@ quinn = Student(
                 ]
             )
 
-print(quinn.add_class("Painting"))
-print(quinn.get_num_classes())
-print(quinn.summary())
+quinn.add_class("Painting")
+quinn.get_num_classes()
+quinn.summary()
 
 claire = Student(
                 "Claire", 
@@ -31,7 +31,7 @@ claire = Student(
                 ]
             )
 
-print(claire.get_num_classes())
-print(claire.summary())
+claire.get_num_classes()
+claire.summary()
 
 
