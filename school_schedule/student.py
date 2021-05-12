@@ -1,3 +1,3 @@
 class Student:
-    print("hello")
+    pass
     
