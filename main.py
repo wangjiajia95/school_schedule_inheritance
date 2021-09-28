@@ -1,6 +1,6 @@
+from school_schedule.student import Student
 
-
-#first instance
+# first instance
 quinn = Student(
                 "Quinn", 
                 "junior", 
@@ -16,7 +16,7 @@ quinn = Student(
 
 quinn.add_class("Painting")
 quinn.get_num_classes()
-quinn.summary()
+print(quinn.summary())
 
 # second instance
 claire = Student(
@@ -33,8 +33,4 @@ claire = Student(
             )
 
 claire.get_num_classes()
-claire.summary()
-
-# Extra:
-# - create a function that will return the student with more classes
-# - create a test for that function
+print(claire.summary())
