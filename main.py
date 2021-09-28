@@ -1,25 +1,25 @@
-from school_schedule.student import Student
+from school_schedule.middle_school_student import MiddleSchoolStudent
+from school_schedule.high_school_student import HighSchoolStudent
 
 # first instance
-quinn = Student(
+quinn = MiddleSchoolStudent(
                 "Quinn", 
-                "junior", 
+                "8th grader", 
                 [
-                    "Pre-Calc", 
-                    "English III", 
-                    "World History", 
+                    "Social Studies", 
+                    "Science", 
+                    "Algebra", 
                     "Gym", 
-                    "Chemistry", 
-                    "Music Composition"
-                ]
+                    "English", 
+                    "Shop"
+                ],
+                gets_transportation=True
             )
 
 quinn.add_class("Painting")
-quinn.get_num_classes()
-print(quinn.summary())
 
 # second instance
-claire = Student(
+claire = HighSchoolStudent(
                 "Claire", 
                 "freshmen", 
                 [
@@ -29,8 +29,11 @@ claire = Student(
                     "Gym", 
                     "Earth Science", 
                     "Painting"
-                ]
+                ],
+                has_parking_privileges=True,
+                clubs=["Algorithms Club"]
             )
 
-claire.get_num_classes()
-print(claire.summary())
+students = [quinn, claire]
+for student in students:
+    print(student.summary())
