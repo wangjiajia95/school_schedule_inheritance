@@ -20,4 +20,3 @@ class Student:
             f"{self.display_classes()}")
         
         
-    
